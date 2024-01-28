@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+:root {
+--body-font:'Manrope', sans-serif;;
+--Light-Cyan: hsl(193, 38%, 86%);
+--Neon-Green: hsl(150, 100%, 66%);
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+--Dark-Blue: hsl(218, 23%, 16%);
+}
+body {
+height: 100vh;
+background-color: var(--Dark-Blue);
+font-family: var(--body-font);
+font-size: 28px;
+}
+main{
+    background-color: var(--Dark-Grayish-Blue);
+    padding: 1rem;
+    border-radius: 20px;
+    position: relative;
+}
+.pargrapH{
+color: var(--Neon-Green);
+}
+button{
+    background-color: var(--Neon-Green);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -1.5rem;
+}
+button:hover{
+    background-color: var(--Neon-Green);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
